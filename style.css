@@ -152,3 +152,33 @@ h1:hover, p:hover {
 input:hover ~ .cursor {
     opacity: 0;
 }
+
+@media only screen and (max-width: 1279px) {
+    .cursor {
+        display: none;
+    }
+    .cursor2 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 830px) {
+    h1{
+        font-size: 1.5rem;
+    }
+    p{
+        font-size: 0.7rem;
+    }
+    input[type="email"] {
+        width: 170px;
+        height: 25px;
+        padding: 0 12.5px;
+        font-size: 0.7rem;
+    }
+    
+    input[type="submit"] {
+        width: 75px;
+        height: 25px;
+        font-size: 0.7rem;
+    }
+}
