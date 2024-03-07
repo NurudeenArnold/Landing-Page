@@ -7,13 +7,12 @@ function changeBackground() {
 
     imageIndex++;
 
-    if(imageIndex >= headerBackgrounds.length) {
+    if (imageIndex >= headerBackgrounds.length) {
         imageIndex = 0;
     }
 
     headerBackgrounds[imageIndex].classList.add("showing");
 }
-
 setInterval(changeBackground, 5000);
 
 var cursor = document.querySelector(".cursor");
