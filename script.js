@@ -32,7 +32,9 @@ submitForm.addEventListener("submit", function(event){
         icon: "success",
         confirmButtonColor: "#ff3333",
         iconColor: "#ff3333",
-        confirmButtonText: "Okay"
+        confirmButtonText: "Okay",
+        footer: '<a href="https://playvalorant.com/en-gb/" target="_blank" style="color: white;">Learn More</a>'
+        /* footer: '<a href="https://nurudeenportfolio.netlify.app/" target="_blank" style="color: white;">Learn More</a>' */
       });
     document.getElementById("email").value = "";
 });
