@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-wordpress-admin/wordpress-admin.css" rel="stylesheet"> -->
+    <link href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@4/dark.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
     <title>Landing Page</title>
 </head>
 <body>
@@ -16,9 +20,9 @@
             <div class="cursor"></div>
             <div class="cursor2"></div>
         </div>
-        <form class="box">
-            <input type="email" name="" placeholder="Email">
-            <input type="submit" name="" value="Submit">
+        <form class="box" id="submitForm">
+            <input type="email" placeholder="Email" id="email" required>
+            <input type="submit" id="submit" value="Submit">
         </form>
         <div class="backgrounds-container">
             <img class="showing background" src="image1.jpg">
@@ -27,7 +31,6 @@
             <img class="background" src="image4.jpg">
         </div>
     </header>
-    
     <script src="script.js"></script>
 </body>
 </html>
